@@ -1,1 +1,7 @@
+Step 1: Pass the sentences from the subset of the train file(Codeswitch_train_7_11) using the API code.
+Step 2: Outputs will be received in a CSV file. Extract the sentences from the CSV file.
+Step 3: Convert the sentences to lowercase, remove punctuations, remove repetitive sentences and remove the extra tokens.
+Step 4: Combine the Codeswitch_train_7_11 file, Codeswitch_train file and the outputs.
+Step 5: Perform perplexity evaluations using the cs_vocab vocabulary file.
 
+# Remove all the extra tokens from the output file in the output CSV.
