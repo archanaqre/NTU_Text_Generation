@@ -1,0 +1,4 @@
+*Antonym/Synonym Augmentation
+Step 1: Pass the sentences from the train set to nlpaug and augment using the antonym/synonym augmentation using DEFAULT PARAMETERS.
+Step 2: Combine the train and the augmented dataset.
+Step 3: Use the output sentences to evaluate the LM's using the augmented data set.
