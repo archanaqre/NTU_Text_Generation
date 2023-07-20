@@ -4,4 +4,4 @@ Step 3: Convert the sentences to lowercase, remove punctuations, remove repetiti
 Step 4: Combine the Codeswitch_train_7_11 file, Codeswitch_train file and the outputs.
 Step 5: Perform perplexity evaluations using the cs_vocab vocabulary file.
 
-# Remove all the extra tokens from the output file in the output CSV.
+# Remove all the extra tokens and punctuations from the output file in the output CSV.
